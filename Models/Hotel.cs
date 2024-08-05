@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace wandermate_backend.Models
 {
-    [Table("Hotel")] 
+    [Table("Hotel")]
     public class Hotel
     {
         [Key]
@@ -24,9 +24,14 @@ namespace wandermate_backend.Models
         public string Description { get; set; } = String.Empty;
 
         public int Rating { get; set; }
- 
+
         public bool FreeCancellation { get; set; }
 
         public bool ReserveNow { get; set; }
+
+        public HOtelInfo? HOtelInfo { get; set; }
+
+        public List<HotelReviews> HotelReviews { get; set; } = new List<HotelReviews>();
+
     }
 }
