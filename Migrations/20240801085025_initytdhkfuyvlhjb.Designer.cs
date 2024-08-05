@@ -12,8 +12,8 @@ using wandermate_backend.Data;
 namespace wandermate_backend.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240801055515_init")]
-    partial class init
+    [Migration("20240801085025_initytdhkfuyvlhjb")]
+    partial class initytdhkfuyvlhjb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

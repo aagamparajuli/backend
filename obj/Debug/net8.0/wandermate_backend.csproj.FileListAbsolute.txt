@@ -136,3 +136,4 @@ C:\Users\acer\Desktop\New folder\wandermate_backend\obj\Debug\net8.0\refint\wand
 C:\Users\acer\Desktop\New folder\wandermate_backend\obj\Debug\net8.0\wandermate_backend.pdb
 C:\Users\acer\Desktop\New folder\wandermate_backend\obj\Debug\net8.0\wandermate_backend.genruntimeconfig.cache
 C:\Users\acer\Desktop\New folder\wandermate_backend\obj\Debug\net8.0\ref\wandermate_backend.dll
+C:\Users\acer\Desktop\New folder\wandermate_backend\obj\Debug\net8.0\wandermate_backend.sourcelink.json

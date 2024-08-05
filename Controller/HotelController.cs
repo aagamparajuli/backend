@@ -8,6 +8,7 @@ using wandermate_backend.Data;
 using wandermate_backend.Models;  
 
 
+
 namespace wandermate_backend.Controller
 {
 
@@ -72,12 +73,26 @@ namespace wandermate_backend.Controller
             _context.SaveChanges();
 
             return Ok(hotelDb);
-            
-
-
-           
 
         }
+
+
+        [HttpDelete("{id}")]
+
+        public IActionResult DeleteHotel([FromRoute]int id ) {
+
+           var hotel = _context.Hotel.Find(id);
+            if(hotel == null) {
+                return BadRequest();
+            }
+            _context.Hotel.Remove(hotel);
+            _context.SaveChanges();
+
+            return NoContent();
+
+        }
+
+
 
         
 
